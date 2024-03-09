@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1</title>
+</head>
+<body>
+    <h1>Practica 1</h1><br>
+    <form action="Resultado.php" method="post">
+        <fieldset>
+            <legend>Informacion general</legend>
+            <table align="center">
+                <tr>
+                   <td>
+                        <label for="Nombre1">Nombre:</label><br>
+                        <input type="text" name="Nombre" placeholder="Nombre"><br>
+                   </td> 
+                   <td>
+                        <label for="apellidop">Apellido paterno:</label><br>
+                        <input type="text" name="ApellidoP" placeholder="Apellido Paterno"><br>
+                   </td>
+                   <td>
+                        <label for="apellidom">Apellido materno:</label><br>
+                        <input type="text" name="ApellidoM" placeholder="Apellido Materno"><br>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Usuario">Nombre de usuario:</label><br>
+                        <input type="text" name="usuario" placeholder="Nombre de usuario"><br>
+                    </td>
+                    <td>
+                        <label for="Contra">Contraseña:</label><br>
+                        <input type="password" name="contra" placeholder="Contraseña"><br>
+                    </td>
+                    <td>
+                        <label for="fech">Fecha de nacimiento:</label><br>
+                        <input type="date" name="Fech"><br>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de facturacion</legend>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="Pais">Pais:</label><br>
+                        <select name="pais" id="pai" size="3">
+                            <option value="mexico">México</option>
+                            <option value="canada">Canada</option>
+                            <option value="eua">E.U.A</option>
+                            <option value="españa">España</option>
+                            <option value="china">China</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Ciudad">Ciudad:</label><br>
+                        <select name="casa" id="ciu" size="3">
+                            <option value="slp">San Luis Potosi</option>
+                            <option value="matehuala">Matehuala</option>
+                            <option value="cdvalles">Cd.Valles</option>
+                            <option value="cdmexico">Cd.Mexico</option>
+                            <option value="oaxaca">Oaxaca</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Calle">Calle:</label><br>
+                        <input type="text" name="calle" placeholder="Calle">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Numcasa">Numero de casa:</label><br>
+                        <input type="number" name="numcasa" placeholder="Numero de casa">
+                    </td>
+                    <td>
+                        <label for="Colonia">Colonia:</label><br>
+                        <input type="text" name="colonia" placeholder="Colonia">
+                    </td>
+                    <td>
+                        <label for="Email">E-mail:</label><br>
+                        <input type="text" name="email" placeholder="E-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Rfc">R.F.C:</label><br>
+                        <input type="number" name="rfc" placeholder="R.F.C">
+                    </td>
+                    <td>
+                        <label for="Cp">C.P:</label><br>
+                        <input type="text" name="cp" placeholder="C.P">
+                    </td>
+                    <td>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="restablecer" value="Restablecer">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
