@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resultados</title>
+</head>
+<body>
 <?php
         echo "<b>Datos generales</b><br><br>";
         echo "Su Nombre es: <b> {$_POST['Nombre']} {$_POST['ApellidoP']} {$_POST['ApellidoM']} </b><br>";
@@ -15,3 +23,5 @@
         echo "Su CP es: <b>{$_POST['cp']}</b><br>";
         
 ?>
+</body>
+</html>
