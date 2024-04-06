@@ -1,0 +1,23 @@
+div{
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+#registro{
+    background-color:rgb(88, 188, 255);
+    color: white;
+    border: 100px;
+    width: 450px;
+}
+
+#id{
+    width: 443px;
+}
+
+#busq{
+    background-color:rgb(13, 57, 235);
+    color: white;
+    border: 100px;
+    width: 450px;
+    margin-top: 20px;
+}
